@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button 
+            android:id="@+id/increase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IncreaseThread"/>
+        <Button android:layout_width="0dp"
+            android:id="@+id/decrease"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DecreaseThread"/>
+    </LinearLayout>
+
+</LinearLayout>
